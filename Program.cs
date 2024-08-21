@@ -25,9 +25,8 @@ namespace TaskJunior2._7
 
             someString = nameUser.Length;
             middleLine = symbolInput + nameUser + symbolInput;
-            frame = symbolInput + frame + symbolInput;
 
-            for (int i = 0; i < someString; i++)
+            for (int i = 0; i < (someString + 2); i++)
             {
                 frame += symbolInput;
             }
